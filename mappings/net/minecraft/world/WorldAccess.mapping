@@ -3,6 +3,16 @@ CLASS net/minecraft/class_1936 net/minecraft/world/WorldAccess
 		ARG 1 eventId
 		ARG 2 pos
 		ARG 3 data
+	METHOD method_32887 dispatchEventAroundEntity (Lnet/minecraft/class_1297;Lnet/minecraft/class_5712;Lnet/minecraft/class_1297;)V
+		COMMENT Dispatch an event around an entity.
+		COMMENT
+		COMMENT @param eventEntity Entity to dispatch with the GameEvent, can be null.
+		COMMENT @param gameEvent Game event to dispatch
+		COMMENT @param targetEntity Entity to take origin position from
+		ARG 1 eventEntity
+		ARG 3 targetEntity
+	METHOD method_32888 dispatchEventAround (Lnet/minecraft/class_1297;Lnet/minecraft/class_5712;Lnet/minecraft/class_2338;)V
+	METHOD method_32889 dispatchEventAround (Lnet/minecraft/class_5712;Lnet/minecraft/class_2338;)V
 	METHOD method_8396 playSound (Lnet/minecraft/class_1657;Lnet/minecraft/class_2338;Lnet/minecraft/class_3414;Lnet/minecraft/class_3419;FF)V
 		ARG 1 player
 		ARG 2 pos
