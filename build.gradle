@@ -373,7 +373,6 @@ task yarn(dependsOn: setupYarn) {
 				spawn: true
 		) {
 			jvmarg(value: "-Xmx2048m")
-			jvmarg(value: "-Xss4m")
 			arg(value: '-jar')
 			arg(value: intermediaryJar.getAbsolutePath())
 			arg(value: '-mappings')
