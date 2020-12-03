@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_5571 net/minecraft/world/storage/ChunkStorageHandler
+	METHOD close ()V
+	METHOD method_31758 waitForSave ()V
+	METHOD method_31759 loadItemsAt (Lnet/minecraft/class_1923;)Ljava/util/concurrent/CompletableFuture;
+	METHOD method_31760 save (Lnet/minecraft/class_5566;)V
+		ARG 1 chunkItems

@@ -54,6 +54,8 @@ CLASS net/minecraft/class_1299 net/minecraft/entity/EntityType
 		COMMENT Any mob can't spawn in wither roses, sweet berry bush, or cacti.
 		COMMENT
 		COMMENT <p>This can be overwritten via {@link EntityType.Builder#allowSpawningInside(Block[])}
+	METHOD method_31489 loadAllEntities (Ljava/util/List;Lnet/minecraft/class_1937;)Ljava/util/stream/Stream;
+		ARG 0 tagList
 	METHOD method_5881 loadFromEntityTag (Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1297;Lnet/minecraft/class_2487;)V
 		ARG 0 world
 		ARG 1 player

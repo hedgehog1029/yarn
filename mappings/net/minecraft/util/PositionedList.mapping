@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_5566 net/minecraft/util/PositionedList
+	FIELD field_27241 chunkPos Lnet/minecraft/class_1923;
+	FIELD field_27242 list Ljava/util/List;
+	METHOD method_31741 getChunkPos ()Lnet/minecraft/class_1923;
+	METHOD method_31742 stream ()Ljava/util/stream/Stream;
+	METHOD method_31743 isEmpty ()Z

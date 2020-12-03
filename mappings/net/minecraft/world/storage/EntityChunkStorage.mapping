@@ -1,0 +1,18 @@
+CLASS net/minecraft/class_5565 net/minecraft/world/storage/EntityChunkStorage
+	FIELD field_27231 dataFixer Lcom/mojang/datafixers/DataFixer;
+	FIELD field_27232 logger Lorg/apache/logging/log4j/Logger;
+	FIELD field_27233 serverWorld Lnet/minecraft/class_3218;
+	FIELD field_27234 worker Lnet/minecraft/class_4698;
+	FIELD field_27235 pending Lit/unimi/dsi/fastutil/longs/LongSet;
+	FIELD field_27236 executor Ljava/util/concurrent/Executor;
+	METHOD <init> (Lnet/minecraft/class_3218;Ljava/io/File;Lcom/mojang/datafixers/DataFixer;ZLjava/util/concurrent/Executor;)V
+		ARG 4 dsync
+	METHOD method_31731 (Lnet/minecraft/class_1923;Lnet/minecraft/class_2487;)Lnet/minecraft/class_5566;
+		ARG 2 tag
+	METHOD method_31732 getTagVersion (Lnet/minecraft/class_2487;)I
+	METHOD method_31733 addPositionToTag (Lnet/minecraft/class_2487;Lnet/minecraft/class_1923;)V
+	METHOD method_31734 (Lnet/minecraft/class_2499;Lnet/minecraft/class_1297;)V
+		ARG 1 entity
+	METHOD method_31735 createList (Lnet/minecraft/class_1923;)Lnet/minecraft/class_5566;
+	METHOD method_31736 getPositionFromTag (Lnet/minecraft/class_2487;)Lnet/minecraft/class_1923;
+	METHOD method_31737 fixTag (Lnet/minecraft/class_2487;)Lnet/minecraft/class_2487;

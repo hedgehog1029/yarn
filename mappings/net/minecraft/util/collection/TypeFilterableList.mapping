@@ -12,3 +12,4 @@ CLASS net/minecraft/class_3509 net/minecraft/util/collection/TypeFilterableList
 		ARG 1 type
 	METHOD remove (Ljava/lang/Object;)Z
 		ARG 1 o
+	METHOD size ()I

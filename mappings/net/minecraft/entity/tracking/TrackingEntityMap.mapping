@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_5578 net/minecraft/entity/tracking/TrackingEntityMap
+	FIELD field_27258 entityMap Lnet/minecraft/class_5570;
+	FIELD field_27259 tracker Lnet/minecraft/class_5573;

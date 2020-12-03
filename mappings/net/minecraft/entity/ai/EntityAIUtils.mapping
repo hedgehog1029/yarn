@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_5493 net/minecraft/entity/ai/EntityAIUtils
+	METHOD method_30955 doesHaveMobNavigation (Lnet/minecraft/class_1308;)Z
+	METHOD method_31517 isTargetInRange (Lnet/minecraft/class_1314;I)Z
+		ARG 1 extraRange
+	METHOD method_31518 isInWater (Lnet/minecraft/class_1314;Lnet/minecraft/class_2338;)Z
+	METHOD method_31519 isPositionInvalid (Lnet/minecraft/class_1408;Lnet/minecraft/class_2338;)Z
+	METHOD method_31520 isOutsideWorld (Lnet/minecraft/class_2338;Lnet/minecraft/class_1314;)Z
+	METHOD method_31521 isOutsideWalkTargetRange (ZLnet/minecraft/class_1314;Lnet/minecraft/class_2338;)Z
+	METHOD method_31522 hasPathfindingPenalty (Lnet/minecraft/class_1314;Lnet/minecraft/class_2338;)Z
+	METHOD method_31523 isSolidBlock (Lnet/minecraft/class_1314;Lnet/minecraft/class_2338;)Z

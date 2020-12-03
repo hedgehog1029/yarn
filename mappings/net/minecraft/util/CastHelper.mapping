@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_5575 net/minecraft/util/CastHelper
+	METHOD method_31794 getTargetClass ()Ljava/lang/Class;
+	METHOD method_31795 castTo (Ljava/lang/Class;)Lnet/minecraft/class_5575;
+	METHOD method_31796 downcast (Ljava/lang/Object;)Ljava/lang/Object;
