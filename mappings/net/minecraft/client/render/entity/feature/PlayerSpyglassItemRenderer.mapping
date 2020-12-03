@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_5697 net/minecraft/client/render/entity/feature/PlayerSpyglassItemRenderer
+	METHOD method_32799 render (Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;Lnet/minecraft/class_1306;Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V
+		ARG 6 light
