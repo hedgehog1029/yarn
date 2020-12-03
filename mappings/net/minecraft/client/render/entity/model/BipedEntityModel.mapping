@@ -20,10 +20,17 @@ CLASS net/minecraft/class_572 net/minecraft/client/render/entity/model/BipedEnti
 	METHOD method_2808 getArm (Lnet/minecraft/class_1306;)Lnet/minecraft/class_630;
 		ARG 1 arm
 	METHOD method_2818 setAttributes (Lnet/minecraft/class_572;)V
+	METHOD method_30154 poseRightArm (Lnet/minecraft/class_1309;)V
+		ARG 1 livingEntity
+	METHOD method_30155 poseLeftArm (Lnet/minecraft/class_1309;)V
+		ARG 1 livingEntity
 	METHOD method_32011 getModelData (Lnet/minecraft/class_5605;F)Lnet/minecraft/class_5609;
 		ARG 0 dilation
 		ARG 1 pivotOffsetY
 	CLASS class_573 ArmPose
+		FIELD field_25722 requiresBothArms Z
 		METHOD <init> (Ljava/lang/String;IZ)V
 			ARG 1 name
 			ARG 2 id
+			ARG 3 requiresBothArms
+		METHOD method_30156 isTwoHanded ()Z
