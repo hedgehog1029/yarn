@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_5572 net/minecraft/entity/tracking/TrackingList
+CLASS net/minecraft/class_5572 net/minecraft/entity/tracking/TrackingGroup
 	FIELD field_27247 logger Lorg/apache/logging/log4j/Logger;
 	FIELD field_27248 entityList Lnet/minecraft/class_3509;
 	FIELD field_27249 state Lnet/minecraft/class_5584;

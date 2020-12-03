@@ -1,0 +1,29 @@
+CLASS net/minecraft/class_5582 net/minecraft/client/world/ClientEntityManager
+	FIELD field_27279 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_27280 entityLoader Lnet/minecraft/class_5576;
+	FIELD field_27281 entityMap Lnet/minecraft/class_5570;
+	FIELD field_27282 entityTracker Lnet/minecraft/class_5573;
+	FIELD field_27283 ticking Lit/unimi/dsi/fastutil/longs/LongSet;
+	FIELD field_27284 trackingMap Lnet/minecraft/class_5577;
+	METHOD <init> (Ljava/lang/Class;Lnet/minecraft/class_5576;)V
+		ARG 1 entityClass
+	METHOD method_31866 getEntityMap ()Lnet/minecraft/class_5577;
+	METHOD method_31867 (J)Lnet/minecraft/class_5584;
+		ARG 1 pos
+	METHOD method_31868 stopTrackingIfEmpty (JLnet/minecraft/class_5572;)V
+		ARG 1 pos
+		ARG 3 group
+	METHOD method_31869 startTicking (Lnet/minecraft/class_1923;)V
+	METHOD method_31870 addEntity (Lnet/minecraft/class_5568;)V
+		ARG 1 entity
+	METHOD method_31874 getEntityCount ()I
+	METHOD method_31875 stopTicking (Lnet/minecraft/class_1923;)V
+	METHOD method_31879 getDebugString ()Ljava/lang/String;
+	CLASS class_5583 ManagerRef
+		FIELD field_27286 entity Lnet/minecraft/class_5568;
+		FIELD field_27287 pos J
+		FIELD field_27288 group Lnet/minecraft/class_5572;
+		METHOD <init> (Lnet/minecraft/class_5582;Lnet/minecraft/class_5568;JLnet/minecraft/class_5572;)V
+			ARG 2 entity
+			ARG 3 pos
+			ARG 5 group

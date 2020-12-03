@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_5567 net/minecraft/entity/tracker/ChunkStatusListener
+	METHOD onChunkStatusChange (Lnet/minecraft/class_1923;Lnet/minecraft/class_3193$class_3194;)V
