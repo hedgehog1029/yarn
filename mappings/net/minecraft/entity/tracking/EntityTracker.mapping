@@ -7,6 +7,9 @@ CLASS net/minecraft/class_5573 net/minecraft/entity/tracking/EntityTracker
 		ARG 1 entityClass
 		ARG 2 posToStatus
 	METHOD method_31770 getTrackedChunkPositions ()Lit/unimi/dsi/fastutil/longs/LongSet;
+	METHOD method_31771 trackedPositionsForCoords (II)Lit/unimi/dsi/fastutil/longs/LongSortedSet;
+		ARG 1 x
+		ARG 2 z
 	METHOD method_31772 trackedPositionsForChunk (J)Ljava/util/stream/LongStream;
 		ARG 1 pos
 	METHOD method_31773 forEachIntersecting (Lnet/minecraft/class_5575;Lnet/minecraft/class_238;Ljava/util/function/Consumer;)V
@@ -14,6 +17,8 @@ CLASS net/minecraft/class_5573 net/minecraft/entity/tracking/EntityTracker
 	METHOD method_31777 forEachInBox (Lnet/minecraft/class_238;Ljava/util/function/Consumer;)V
 		ARG 1 box
 	METHOD method_31779 blockPosToLong (Lnet/minecraft/class_2338;)J
+	METHOD method_31780 (Lit/unimi/dsi/fastutil/longs/LongSet;J)V
+		ARG 1 pos
 	METHOD method_31781 trackedCount ()I
 	METHOD method_31782 trackingListsForChunk (J)Ljava/util/stream/Stream;
 		ARG 1 pos
@@ -25,5 +30,6 @@ CLASS net/minecraft/class_5573 net/minecraft/entity/tracking/EntityTracker
 	METHOD method_31786 stopTracking (J)V
 		ARG 1 pos
 	METHOD method_31787 blockPosToChunkPos (J)J
+		ARG 0 pos
 	METHOD method_31788 startTracking (J)Lnet/minecraft/class_5572;
 		ARG 1 pos
