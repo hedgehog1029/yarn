@@ -12,6 +12,11 @@ CLASS net/minecraft/class_976 net/minecraft/client/render/entity/feature/HeadFea
 		ARG 3 scaleX
 		ARG 4 scaleY
 		ARG 5 scaleZ
+<<<<<<< HEAD
+	METHOD method_32798 flipAndShrink (Lnet/minecraft/class_4587;Z)V
+		ARG 1 shouldTranslateUp
+=======
 	METHOD method_32798 translate (Lnet/minecraft/class_4587;Z)V
 		ARG 0 matrices
 		ARG 1 villager
+>>>>>>> Shnupbups/48a
