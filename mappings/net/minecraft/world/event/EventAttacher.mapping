@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_5715 net/minecraft/world/event/EventAttacher
+	FIELD field_28182 gameEventListener Lnet/minecraft/class_5714;
+	FIELD field_28183 position Lnet/minecraft/class_4076;
+	METHOD method_32949 detachFromWorld (Lnet/minecraft/class_1937;)V
+		ARG 1 world
+	METHOD method_32950 getDispatcherForChunk (Lnet/minecraft/class_1937;Lnet/minecraft/class_4076;Ljava/util/function/Consumer;)V
+	METHOD method_32952 attachToWorld (Lnet/minecraft/class_1937;)V

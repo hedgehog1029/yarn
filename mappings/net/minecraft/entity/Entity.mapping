@@ -268,6 +268,7 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 		ARG 1 frozenTicks
 	METHOD method_32319 setInPowderSnow (Z)V
 		ARG 1 inPowderSnow
+	METHOD method_32877 getEventAttacher ()Lnet/minecraft/class_5715;
 	METHOD method_5621 getMountedHeightOffset ()D
 	METHOD method_5622 onBlockCollision (Lnet/minecraft/class_2680;)V
 		ARG 1 state
